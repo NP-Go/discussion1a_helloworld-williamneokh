@@ -7,8 +7,8 @@ import (
 func HelloWorld() string {
 
 	messageHelloWorld := "Hello World from Go !!"
-
 	return messageHelloWorld
+
 }
 
 func main() {
