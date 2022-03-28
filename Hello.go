@@ -1,12 +1,18 @@
 package main
 
+import (
+	"fmt"
+)
+
 func HelloWorld() string {
 	//Insert your code here
 
 	//Do not remove this line here
-	return messageHelloWorld
+	return "Hello World from Go !!"
 }
 
 func main() {
-	HelloWorld()
+	message := HelloWorld()
+	fmt.Println(message)
+
 }
