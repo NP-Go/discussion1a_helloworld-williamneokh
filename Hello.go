@@ -6,9 +6,9 @@ import (
 
 func HelloWorld() string {
 	//Insert your code here
-
+	messageHelloWorld := "Hello World from Go !!"
 	//Do not remove this line here
-	return "Hello World from Go !!"
+	return messageHelloWorld
 }
 
 func main() {
